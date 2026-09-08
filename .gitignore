@@ -1,0 +1,45 @@
+# Private runtime data and owner records
+runtime/
+Data/
+Evidence/
+Inbox/
+Backups/
+Logs/
+Exports/
+private/
+*.private.json
+
+# The repository contains one fictional schema example only
+!sample/Data/
+!sample/Data/Vehicle_Status_Data.example.json
+
+# Documents, archives and generated binaries
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.zip
+*.7z
+*.rar
+*.bak
+*.log
+
+# Generated HTML and test output
+Vehicle_Status.html
+Honda.html
+Sonata.html
+index.html
+TestResults/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp

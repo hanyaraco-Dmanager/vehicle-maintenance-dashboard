@@ -1,0 +1,87 @@
+{
+  "SchemaVersion": "1.0",
+  "GeneratedAt": "2026-01-01 00:00:00 +00:00",
+  "Purpose": "SANITIZED_STATIC_READ_ONLY_VEHICLE_STATUS_SAMPLE",
+  "FrozenApplicationCommit": "SAMPLE_ONLY",
+  "Vehicles": [
+    {
+      "Id": "honda",
+      "PageFile": "Honda.html",
+      "PhotoPath": "Assets\\sample-suv.svg",
+      "Theme": "honda",
+      "DisplayName": "Sample SUV",
+      "Subtitle": "Fictional data for development",
+      "StorageMode": "SAMPLE",
+      "Odometer": 100000,
+      "Unit": "km",
+      "AsOfDate": "2026-01-01",
+      "SourceLock": "SAMPLE - NOT VERIFIED",
+      "Counts": [
+        { "Label": "Overdue service", "Value": 0, "Class": "good" },
+        { "Label": "Due now", "Value": 0, "Class": "good" },
+        { "Label": "Inspection overdue", "Value": 0, "Class": "good" },
+        { "Label": "Date verification", "Value": 1, "Class": "warning" },
+        { "Label": "Unknown history", "Value": 1, "Class": "warning" }
+      ],
+      "MaintenanceItems": [
+        {
+          "Name": "Example maintenance item",
+          "Category": "SAMPLE_ONLY",
+          "Status": "VERIFY",
+          "Action": "REVIEW_PRIVATE_SOURCE",
+          "NextDueDistance": null,
+          "NextDueDate": "",
+          "Reason": "Fictional placeholder. Replace only in a private runtime using verified owner records."
+        }
+      ],
+      "ConfirmedSpendAED": 0,
+      "PlanningEstimate": null,
+      "OwnerPolicy": [
+        "Example owner preference; not a manufacturer schedule."
+      ],
+      "FluidSpecificationState": "No manufacturer fluid specification is included in this sample.",
+      "FinancialHistory": [],
+      "MaintenanceHistory": [],
+      "RepairHistory": []
+    },
+    {
+      "Id": "sonata",
+      "PageFile": "Sonata.html",
+      "PhotoPath": "Assets\\sample-sedan.svg",
+      "Theme": "sonata",
+      "DisplayName": "Sample Sedan",
+      "Subtitle": "Fictional data for development",
+      "StorageMode": "SAMPLE",
+      "Odometer": 50000,
+      "Unit": "miles",
+      "AsOfDate": "2026-01-01",
+      "SourceLock": "SAMPLE - NOT VERIFIED",
+      "Counts": [
+        { "Label": "Overdue", "Value": 0, "Class": "good" },
+        { "Label": "Due soon", "Value": 0, "Class": "good" },
+        { "Label": "Source review", "Value": 1, "Class": "warning" }
+      ],
+      "MaintenanceItems": [
+        {
+          "Name": "Example maintenance item",
+          "Category": "SAMPLE_ONLY",
+          "Status": "SOURCE REVIEW",
+          "Action": "REVIEW_PRIVATE_SOURCE",
+          "NextDueDistance": null,
+          "NextDueDate": "",
+          "Reason": "Fictional placeholder. No real schedule or history is stored in Git."
+        }
+      ],
+      "ConfirmedSpendAED": 0,
+      "PlanningEstimate": null,
+      "OwnerPolicy": [
+        "Example owner preference; not a manufacturer schedule."
+      ],
+      "FluidSpecificationState": "No manufacturer fluid specification is included in this sample.",
+      "FinancialHistory": [],
+      "MaintenanceHistory": [],
+      "RepairHistory": []
+    }
+  ]
+}
+
