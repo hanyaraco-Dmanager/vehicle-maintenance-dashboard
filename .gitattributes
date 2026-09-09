@@ -5,3 +5,9 @@
 *.svg text eol=lf
 *.yml text eol=lf
 *.yaml text eol=lf
+
+# Preserve the published snapshot byte-for-byte
+/index.html -text
+/Vehicle_Status.html -text
+/Honda.html -text
+/Sonata.html -text

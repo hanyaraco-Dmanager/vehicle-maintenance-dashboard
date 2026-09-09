@@ -43,3 +43,13 @@ desktop.ini
 .vscode/
 .idea/
 *.swp
+
+# Owner-authorized static Pages snapshot only
+!/index.html
+!/Vehicle_Status.html
+!/Honda.html
+!/Sonata.html
+!/Assets/honda-crv-2016-brown.png
+!/Assets/hyundai-sonata-2017-silver.png
+Invoices/
+04_Backups/

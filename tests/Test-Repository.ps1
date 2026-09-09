@@ -29,8 +29,17 @@ $files = @(Get-ChildItem -LiteralPath $repositoryRoot -File -Recurse | Where-Obj
     -not ($ignoredRoots | Where-Object { $path.StartsWith($_, [StringComparison]::OrdinalIgnoreCase) })
 })
 
+$published = Get-Content -Raw (Join-Path $PSScriptRoot 'Published-Snapshot.json') | ConvertFrom-Json
+$approvedPaths = @()
+foreach ($entry in $published.PSObject.Properties) {
+    $snapshotPath = Join-Path $repositoryRoot $entry.Name
+    if ((Get-FileHash -LiteralPath $snapshotPath -Algorithm SHA256).Hash -ne $entry.Value) {
+        throw "Published snapshot changed; repeat owner-scope/privacy review: $($entry.Name)"
+    }
+    $approvedPaths += $snapshotPath.Replace('/', '\')
+}
 $forbiddenExtensions = @('.pdf','.png','.jpg','.jpeg','.webp','.gif','.bmp','.tif','.tiff','.zip','.7z','.rar','.log','.bak')
-$badFiles = @($files | Where-Object { $forbiddenExtensions -contains $_.Extension.ToLowerInvariant() })
+$badFiles = @($files | Where-Object { ($forbiddenExtensions -contains $_.Extension.ToLowerInvariant()) -and ($approvedPaths -notcontains $_.FullName) })
 if ($badFiles.Count -gt 0) { throw "Forbidden binary/private file found: $($badFiles.FullName -join ', ')" }
 
 $privacyPatterns = @(
@@ -41,13 +50,16 @@ $privacyPatterns = @(
     '(?i)D:\\Sonata_Maintenance'
 )
 foreach ($file in $files) {
+    if ($file.Extension -eq '.png' -and $approvedPaths -contains $file.FullName) { continue }
     $content = Get-Content -Raw -LiteralPath $file.FullName -ErrorAction SilentlyContinue
     foreach ($pattern in $privacyPatterns) {
+        # Exact reviewed snapshots retain owner-authorized local invoice paths.
+        if ($approvedPaths -contains $file.FullName -and $pattern.StartsWith('(?i)D:')) { continue }
         if ($content -match $pattern) { throw "Privacy pattern found in $($file.FullName): $pattern" }
     }
 }
 
 Write-Host 'Repository tests: PASS'
 Write-Host "Files scanned: $($files.Count)"
-Write-Host 'Private documents/binaries: NONE'
-Write-Host 'VIN-like values/private local paths: NONE'
+Write-Host 'Private documents: NONE; only two hash-verified generated PNGs allowed'
+Write-Host 'VIN-like values: NONE; reviewed local invoice paths preserved in hash-locked HTML'
