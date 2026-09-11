@@ -461,9 +461,10 @@
   <section class="counts"><div class="count-card danger"><span>Overdue</span><strong>1</strong></div>
 <div class="count-card warning"><span>Due soon</span><strong>1</strong></div>
 <div class="count-card warning"><span>Source review</span><strong>1</strong></div>
-<div class="count-card "><span>Condition-based</span><strong>8</strong></div>
+<div class="count-card "><span>Condition-based</span><strong>6</strong></div>
 <div class="count-card "><span>Verify history</span><strong>13</strong></div>
-<div class="count-card good"><span>Later</span><strong>1</strong></div></section>
+<div class="count-card good"><span>Later</span><strong>1</strong></div>
+<div class="count-card danger"><span>Due now</span><strong>2</strong></div></section>
   <section class="panel engine-oil-dashboard">
 
   <div class="oil-dashboard-heading">
@@ -820,6 +821,14 @@
   <section class="panel" id="needs-attention"><div class="panel-title"><div><span class="eyebrow">PRIORITY ACTIONS</span><h2>What needs attention?</h2><p class="muted">Overdue items requiring action.</p></div></div><article class="attention-row danger">
   <div class="attention-main"><span class="status danger">OVERDUE</span><h4>Drive Belts</h4><p>Overdue by mileage and date under the selected fixed rule.</p></div>
   <div class="attention-side"><b>Action</b><span>Inspect</span><b>Due</b><span>77,600 miles or 2026-06-27</span></div>
+</article>
+<article class="attention-row danger">
+  <div class="attention-main"><span class="status danger">DUE NOW</span><h4>Air Cleaner Filter</h4><p>Owner reports filter worn/deteriorated during current inspection at 78432 miles on 2026-09-11. Replacement required now based on observed condition, not a fabricated manufacturer interval. Not yet purchased or replaced. After actual replacement, record date/odometer and continue condition-based inspections under the unchanged source rule.</p></div>
+  <div class="attention-side"><b>Action</b><span>REPLACE NOW - WORN / DETERIORATED</span><b>Due</b><span>78,432 miles or 2026-09-11</span></div>
+</article>
+<article class="attention-row danger">
+  <div class="attention-main"><span class="status danger">DUE NOW</span><h4>Climate Control Air Filter (Evaporator and Blower Unit)</h4><p>Owner reports filter worn/deteriorated during current inspection at 78432 miles on 2026-09-11. Replacement required now based on observed condition, not a fabricated manufacturer interval. Not yet purchased or replaced. After actual replacement, record date/odometer and continue condition-based inspections under the unchanged source rule.</p></div>
+  <div class="attention-side"><b>Action</b><span>REPLACE NOW - WORN / DETERIORATED</span><b>Due</b><span>78,432 miles or 2026-09-11</span></div>
 </article></section>
   <section class="panel" id="for-your-information"><div class="panel-title"><div><span class="eyebrow">NOTES &amp; UPCOMING ITEMS</span><h2>For your information</h2><p class="muted">Upcoming service, checks to clarify, and owner decisions. Current and later services remain in the complete maintenance table below.</p></div></div><article class="attention-row warning">
   <div class="attention-main"><span class="status warning">DUE SOON</span><h4>Engine Oil and Filter</h4><p>The fixed due threshold is approaching.</p></div>
@@ -827,14 +836,6 @@
 </article>
 <article class="attention-row warning">
   <div class="attention-main"><span class="status warning">SOURCE REVIEW</span><h4>Engine Coolant</h4><p>The supplied PDF contains conflicting fixed rules for this item. Both rules are preserved and no interval is silently selected.</p></div>
-  <div class="attention-side"><b>Action</b><span>Replace</span><b>Due</b><span>No calculated due point</span></div>
-</article>
-<article class="attention-row warning">
-  <div class="attention-main"><span class="status warning">CHECK BY CONDITION</span><h4>Air Cleaner Filter</h4><p>The source says &#39;More frequently&#39; and gives no fixed interval. Inspect or replace according to condition; the last recorded baseline is shown, but no due mileage/date is invented.</p></div>
-  <div class="attention-side"><b>Action</b><span>Replace</span><b>Due</b><span>No calculated due point</span></div>
-</article>
-<article class="attention-row warning">
-  <div class="attention-main"><span class="status warning">CHECK BY CONDITION</span><h4>Climate Control Air Filter (Evaporator and Blower Unit)</h4><p>The source says &#39;More frequently&#39; and gives no fixed interval. No known baseline exists; inspect condition and record the result without inventing a due mileage/date.</p></div>
   <div class="attention-side"><b>Action</b><span>Replace</span><b>Due</b><span>No calculated due point</span></div>
 </article>
 <article class="attention-row warning">
@@ -1058,8 +1059,8 @@
   <section class="panel"><div class="panel-title"><div><span class="eyebrow">FULL STATUS</span><h2>Complete maintenance status</h2></div></div><div class="table-wrap"><table><thead><tr><th>Item</th><th>Status</th><th>Action</th><th>Next due</th><th>Reason</th></tr></thead><tbody><tr><td><strong>Drive Belts</strong><small>Engine</small></td><td><span class="status danger">OVERDUE</span></td><td>Inspect</td><td>77,600 miles or 2026-06-27</td><td>Overdue by mileage and date under the selected fixed rule.</td></tr>
 <tr><td><strong>Engine Oil and Filter</strong><small>Engine</small></td><td><span class="status warning">DUE SOON</span></td><td>Replace</td><td>86,263 miles or 2026-10-04</td><td>The fixed due threshold is approaching.</td></tr>
 <tr><td><strong>Engine Coolant</strong><small>Cooling</small></td><td><span class="status warning">SOURCE REVIEW</span></td><td>Replace</td><td>No calculated due point</td><td>The supplied PDF contains conflicting fixed rules for this item. Both rules are preserved and no interval is silently selected.</td></tr>
-<tr><td><strong>Air Cleaner Filter</strong><small>Engine</small></td><td><span class="status warning">CHECK BY CONDITION</span></td><td>Replace</td><td>No calculated due point</td><td>The source says &#39;More frequently&#39; and gives no fixed interval. Inspect or replace according to condition; the last recorded baseline is shown, but no due mileage/date is invented.</td></tr>
-<tr><td><strong>Climate Control Air Filter (Evaporator and Blower Unit)</strong><small>HVAC</small></td><td><span class="status warning">CHECK BY CONDITION</span></td><td>Replace</td><td>No calculated due point</td><td>The source says &#39;More frequently&#39; and gives no fixed interval. No known baseline exists; inspect condition and record the result without inventing a due mileage/date.</td></tr>
+<tr><td><strong>Air Cleaner Filter</strong><small>Engine</small></td><td><span class="status danger">DUE NOW</span></td><td>REPLACE NOW - WORN / DETERIORATED</td><td>78,432 miles or 2026-09-11</td><td>Owner reports filter worn/deteriorated during current inspection at 78432 miles on 2026-09-11. Replacement required now based on observed condition, not a fabricated manufacturer interval. Not yet purchased or replaced. After actual replacement, record date/odometer and continue condition-based inspections under the unchanged source rule.</td></tr>
+<tr><td><strong>Climate Control Air Filter (Evaporator and Blower Unit)</strong><small>HVAC</small></td><td><span class="status danger">DUE NOW</span></td><td>REPLACE NOW - WORN / DETERIORATED</td><td>78,432 miles or 2026-09-11</td><td>Owner reports filter worn/deteriorated during current inspection at 78432 miles on 2026-09-11. Replacement required now based on observed condition, not a fabricated manufacturer interval. Not yet purchased or replaced. After actual replacement, record date/odometer and continue condition-based inspections under the unchanged source rule.</td></tr>
 <tr><td><strong>Front Brake Discs/Pads and Calipers</strong><small>Brakes</small></td><td><span class="status warning">CHECK BY CONDITION</span></td><td>Inspect by condition</td><td>No calculated due point</td><td>Front brake pads replaced on 2026-09-07 at 77,964 miles. Front left and right pads were installed. Manufacturer source remains condition-based and provides no fixed replacement interval, so no future mileage/date is invented.</td></tr>
 <tr><td><strong>Fuel Additive</strong><small>Fuel System</small></td><td><span class="status warning">CHECK BY CONDITION</span></td><td>Add if the source condition applies</td><td>No calculated due point</td><td>The source makes this service conditional. Confirm the stated condition before applying its conditional interval; no due mileage/date is calculated from an unknown condition.</td></tr>
 <tr><td><strong>Parking Brake</strong><small>Brakes</small></td><td><span class="status warning">CHECK BY CONDITION</span></td><td>Inspect</td><td>No calculated due point</td><td>The source says &#39;More frequently&#39; and gives no fixed interval. No known baseline exists; inspect condition and record the result without inventing a due mileage/date.</td></tr>
@@ -1085,6 +1086,12 @@
   <section class="panel"><div class="panel-title"><div><span class="eyebrow">RECORDED WORK</span><h2>Maintenance history</h2></div></div><article class="history-row">
   <div class="history-date"><strong>2026-09-11</strong><span>78,432 miles</span></div>
   <div class="history-body"><h4>Engine oil top-up - 1 L from shared stock</h4><p>Owner measured L, added 1 L and confirmed F. Previous F baseline 2026-09-08 at 77964 miles. Difference 468 miles = 753.173 km over 3 calendar days. First provisional full-to-full usage estimate; not an oil/filter replacement. No new spending.</p><small> | Ref: Owner statement</small></div>
+  <div class="history-cost"></div>
+  <div class="history-file"><span class="muted">No document linked</span></div>
+</article>
+<article class="history-row">
+  <div class="history-date"><strong>2026-09-11</strong><span>78,432 miles</span></div>
+  <div class="history-body"><h4>Engine air and cabin filters inspected - worn, replacement required</h4><p>Owner reports both filters deteriorated. Replace both now; neither replaced yet. Source condition-based rules unchanged. No purchase or expense reported.</p><small> | Ref: Owner statement</small></div>
   <div class="history-cost"></div>
   <div class="history-file"><span class="muted">No document linked</span></div>
 </article>
@@ -1238,7 +1245,7 @@
   <div class="history-cost"></div>
   <div class="history-file"><span class="muted">No document linked</span></div>
 </article></section>
-</main><footer class="footer">Generated 2026-09-11 22:47:37 +04:00 &middot; Documents remain in local project folders and are referenced by link.</footer><dialog class="document-dialog no-print" id="documentDialog">
+</main><footer class="footer">Generated 2026-09-11 22:55:11 +04:00 &middot; Documents remain in local project folders and are referenced by link.</footer><dialog class="document-dialog no-print" id="documentDialog">
   <div class="dialog-head"><strong id="documentTitle">Document</strong><div class="dialog-actions"><a id="documentFallback" href="#" target="_blank">Open separately</a><button type="button" id="closeDocument">Close</button></div></div>
   <iframe class="document-frame" id="documentFrame" title="Vehicle document preview"></iframe>
 </dialog><script>
