@@ -1,4 +1,4 @@
-> Pages deployment exception (2026-09-09): The owner explicitly authorized publication of the current four HTML views and two generated vehicle images, including displayed maintenance records, costs and existing local invoice links. These six exact files are hash-locked in tests/Published-Snapshot.json. This exception supersedes the general generated-HTML restriction below only for this reviewed snapshot. Canonical JSON, VINs, owner identity/contact details, documents, Evidence, Inbox and Backups remain excluded. Local invoice links are intentionally preserved and may not work online.
+> Pages deployment exception (updated 2026-09-11): The owner explicitly authorized publication of the current four HTML views and two generated vehicle images, including displayed maintenance records, costs and existing local invoice links. These six exact files are hash-locked in tests/Published-Snapshot.json. This exception supersedes the general generated-HTML restriction below only for this reviewed snapshot. Canonical JSON, VINs, owner identity/contact details, documents, Evidence, Inbox and Backups remain excluded. Local invoice links are intentionally preserved and may not work online.
 
 # Vehicle Maintenance Dashboard
 
@@ -64,3 +64,4 @@ See [docs/RECOVERY.md](docs/RECOVERY.md) for the recommended 3-2-1 backup model.
 ## License
 
 No public license is granted. This repository is intended for private owner use unless a license is added later.
+
