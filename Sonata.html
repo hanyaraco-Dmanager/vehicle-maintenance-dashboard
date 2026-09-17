@@ -452,19 +452,24 @@
   align-items:flex-start;
   flex-direction:column
 }.garage-grid,.money-grid,.split{grid-template-columns:1fr}.garage-card{min-height:380px}.vehicle-hero,.topbar-inner{align-items:flex-start;flex-direction:column}.odometer{width:100%;text-align:left}.attention-row,.history-row{grid-template-columns:1fr}.history-cost{text-align:left}.split>div+div{border-left:0;border-top:1px solid var(--line);padding:20px 0 0}.source-strip{grid-template-columns:1fr 1fr}}
-@media print{@page{size:A4;margin:11mm}*{-webkit-print-color-adjust:exact;print-color-adjust:exact}.no-print,.topbar,.document-dialog,.footer{display:none!important}body{background:#fff;font-size:10px}.wrap{max-width:none;margin:0;padding:0}.vehicle-hero{min-height:190px;border-radius:0;padding:22px;box-shadow:none}.vehicle-hero h1{font-size:28px}.odometer strong{font-size:24px}.source-strip,.count-card,.panel{box-shadow:none}.counts{grid-template-columns:repeat(5,1fr);gap:6px;margin:8px 0}.count-card{padding:8px}.count-card strong{font-size:20px}.panel{padding:12px;margin-top:8px;border-radius:8px;break-inside:auto}.panel-title{margin-bottom:6px}.panel h2{font-size:17px}.attention-row{grid-template-columns:1fr 220px;padding:8px;margin:5px 0;break-inside:avoid}.attention-main h4{font-size:12px}.money-grid{grid-template-columns:1fr 1fr}.money-card{padding:12px}.money-card strong{font-size:22px}.estimate-note{padding:10px}.split{grid-template-columns:1fr 1fr}.table-wrap{overflow:visible}table{min-width:0;font-size:8px}th,td{padding:5px}.history-row{grid-template-columns:90px 1fr 85px;gap:8px;padding:7px 0;break-inside:avoid}.history-file{grid-column:1/-1}.file-path{display:none}.print-document{display:block;color:#555;font-size:7px;word-break:break-all}details{display:block}details>summary{display:none}details>*{display:block!important}}</style></head>
+@media print{@page{size:A4;margin:11mm}*{-webkit-print-color-adjust:exact;print-color-adjust:exact}.no-print,.topbar,.document-dialog,.footer{display:none!important}body{background:#fff;font-size:10px}.wrap{max-width:none;margin:0;padding:0}.vehicle-hero{min-height:190px;border-radius:0;padding:22px;box-shadow:none}.vehicle-hero h1{font-size:28px}.odometer strong{font-size:24px}.source-strip,.count-card,.panel{box-shadow:none}.counts{grid-template-columns:repeat(5,1fr);gap:6px;margin:8px 0}.count-card{padding:8px}.count-card strong{font-size:20px}.panel{padding:12px;margin-top:8px;border-radius:8px;break-inside:auto}.panel-title{margin-bottom:6px}.panel h2{font-size:17px}.attention-row{grid-template-columns:1fr 220px;padding:8px;margin:5px 0;break-inside:avoid}.attention-main h4{font-size:12px}.money-grid{grid-template-columns:1fr 1fr}.money-card{padding:12px}.money-card strong{font-size:22px}.estimate-note{padding:10px}.split{grid-template-columns:1fr 1fr}.table-wrap{overflow:visible}table{min-width:0;font-size:8px}th,td{padding:5px}.history-row{grid-template-columns:90px 1fr 85px;gap:8px;padding:7px 0;break-inside:avoid}.history-file{grid-column:1/-1}.file-path{display:none}.print-document{display:block;color:#555;font-size:7px;word-break:break-all}details{display:block}details>summary{display:none}details>*{display:block!important}}
+.maintenance-print-report{display:none}.completed-checks .checked-result td{color:#086638;background:#f0faf4}.completed-checks table{min-width:720px}.completed-checks th:nth-child(1){width:26%}.completed-checks th:nth-child(2){width:12%}.completed-checks th:nth-child(4){width:16%}
+@media print{
+body.theme-sonata .wrap,body.theme-sonata>.footer{display:none!important}.maintenance-print-report{display:block;color:#172b3a;font:10pt/1.4 "Segoe UI",Arial,sans-serif}.maintenance-print-report .report-heading{border-bottom:3px solid #1b7151;padding:0 0 12px;margin-bottom:14px}.maintenance-print-report .report-heading>span{font-size:9pt;letter-spacing:.1em;color:#396553}.maintenance-print-report h1{font-size:23pt;margin:5px 0}.maintenance-print-report p{margin:7px 0}.maintenance-print-report .panel{padding:0;border:0;margin:0}.maintenance-print-report .panel h2{font-size:15pt}.maintenance-print-report .eyebrow{display:none}.maintenance-print-report table{width:100%;min-width:0;font-size:9pt;border-collapse:collapse}.maintenance-print-report th{background:#e9efed;color:#264535;font-size:8pt}.maintenance-print-report td,.maintenance-print-report th{padding:6px 7px;line-height:1.3}.maintenance-print-report tr{break-inside:avoid}.maintenance-print-report .status{font-size:7pt;white-space:nowrap}.maintenance-print-report .completed-checks table{font-size:8.5pt}.maintenance-print-report .completed-checks td{padding:4px 6px;line-height:1.2;color:#086638!important;background:#f0faf4!important}.maintenance-print-report .report-next-page{break-before:page}.maintenance-print-report .report-footer{border-top:1px solid #d3ded7;padding-top:8px;margin-top:13px;color:#61766a;font-size:8pt}.maintenance-print-report .report-summary{background:#e5f5ec;border-left:4px solid #218658;padding:12px;font-weight:700;color:#086638}.maintenance-print-report .next-work{margin:14px 0}.maintenance-print-report .next-work td{padding:10px 8px}.maintenance-print-report .report-notes h2{font-size:13pt;margin:16px 0 6px}.maintenance-print-report .report-notes p{font-size:9pt;margin:9px 0}.maintenance-print-report .next-work th:first-child{width:52%}
+}
+</style></head>
 <body class="theme-sonata">
 <header class="topbar no-print"><div class="topbar-inner"><div class="brand"><strong>2017 Hyundai Sonata Sport</strong><small>Private read-only vehicle record</small></div><nav class="actions"><a href="Vehicle_Status.html">&larr; My Garage</a><button type="button" class="button primary print-button">Export / Print PDF</button></nav></div></header>
 <main class="wrap">
-  <section class="vehicle-hero textured" style="background-image:url('Assets/hyundai-sonata-2017-silver.png')"><div><span class="eyebrow">LEGACY_BRIDGE &middot; PROFESSIONAL VEHICLE HISTORY</span><h1>2017 Hyundai Sonata Sport</h1><p>2.4L GDI | Conventional automatic</p></div><div class="odometer"><span>Current odometer</span><strong>78,432</strong> <b>miles</b><small>As of 2026-09-11</small></div></section>
+  <section class="vehicle-hero textured" style="background-image:url('Assets/hyundai-sonata-2017-silver.png')"><div><span class="eyebrow">LEGACY_BRIDGE &middot; PROFESSIONAL VEHICLE HISTORY</span><h1>2017 Hyundai Sonata Sport</h1><p>2.4L GDI | Conventional automatic</p></div><div class="odometer"><span>Current odometer</span><strong>78,432</strong> <b>miles</b><small>As of 2026-09-17</small></div></section>
   <div class="source-strip"><span>Manufacturer source</span><strong>LOCKED &amp; VERIFIED</strong><span>Record mode</span><strong>STATIC READ ONLY</strong></div>
-  <section class="counts"><div class="count-card danger"><span>Overdue</span><strong>1</strong></div>
-<div class="count-card warning"><span>Due soon</span><strong>1</strong></div>
+  <section class="counts"><div class="count-card danger"><span>Overdue</span><strong>0</strong></div>
+<div class="count-card danger"><span>Due now</span><strong>0</strong></div>
+<div class="count-card good"><span>Checked / completed</span><strong>19</strong></div>
 <div class="count-card warning"><span>Source review</span><strong>1</strong></div>
-<div class="count-card "><span>Condition-based</span><strong>8</strong></div>
-<div class="count-card "><span>Verify history</span><strong>13</strong></div>
-<div class="count-card good"><span>Later</span><strong>1</strong></div>
-<div class="count-card danger"><span>Due now</span><strong>0</strong></div></section>
+<div class="count-card "><span>Condition-based</span><strong>3</strong></div>
+<div class="count-card "><span>Verify history</span><strong>1</strong></div>
+<div class="count-card good"><span>Later</span><strong>1</strong></div></section>
   <section class="panel engine-oil-dashboard">
 
   <div class="oil-dashboard-heading">
@@ -636,7 +641,7 @@
         <span>CURRENT ODOMETER</span>
         <strong>78,432</strong>
         <b>miles</b>
-        <small>Vehicle status date: 2026-09-11</small>
+        <small>Vehicle status date: 2026-09-17</small>
       </div>
 
       <div class="oil-storage-card">
@@ -773,7 +778,7 @@
     </p>
 
     <small>
-      Rear brake replacement has NOT been recorded. This purchase does not reset rear brake maintenance.
+      Existing rear pads and discs checked good on 2026-09-17 at 78,432 miles. Spare rear pad kit remains in stock for later use; NOT installed.
     </small>
   </div>
 
@@ -818,16 +823,10 @@
   </div>
 
 </section>
-  <section class="panel" id="needs-attention"><div class="panel-title"><div><span class="eyebrow">PRIORITY ACTIONS</span><h2>What needs attention?</h2><p class="muted">Overdue items requiring action.</p></div></div><article class="attention-row danger">
-  <div class="attention-main"><span class="status danger">OVERDUE</span><h4>Drive Belts</h4><p>Overdue by mileage and date under the selected fixed rule.</p></div>
-  <div class="attention-side"><b>Action</b><span>Inspect</span><b>Due</b><span>77,600 miles or 2026-06-27</span></div>
-</article></section>
+  <section class="panel completed-checks"><span class="eyebrow">CONFIRMED WORK &amp; INSPECTIONS</span><h2>Checked and completed</h2><p>Owner statement recorded 2026-09-17. Earlier replacement dates are preserved.</p><div class="table-wrap"><table><thead><tr><th>Item</th><th>Result</th><th>Details</th><th>Date / odometer</th></tr></thead><tbody><tr class="checked-result"><td><strong>Front brake pads - both front wheels</strong></td><td><span class="status good">REPLACED</span></td><td>Replacement confirmed; installed 2026-09-07.</td><td>2026-09-07<br>77,964 miles</td></tr><tr class="checked-result"><td><strong>Rear brake pads</strong></td><td><span class="status good">CHECKED</span></td><td>Existing pads very good. Spare rear pad kit remains in stock for later use.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>All wheel brake discs</strong></td><td><span class="status good">CHECKED</span></td><td>All four discs in good condition.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Vapor hose and fuel filler cap</strong></td><td><span class="status good">CHECKED</span></td><td>Very good condition.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Valve clearance</strong></td><td><span class="status good">CHECKED</span></td><td>Reported in good condition; no adjustment or measurement values supplied.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Vacuum hose</strong></td><td><span class="status good">CHECKED</span></td><td>Good condition.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Tire rotation</strong></td><td><span class="status good">COMPLETED</span></td><td>Rotation completed.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Suspension mounting bolts</strong></td><td><span class="status good">CHECKED</span></td><td>Very good condition.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Fuel tank air filter</strong></td><td><span class="status good">CHECKED</span></td><td>Good condition.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Fuel lines, fuel hoses and connections</strong></td><td><span class="status good">CHECKED</span></td><td>Very good condition.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Fuel filter</strong></td><td><span class="status good">CHECKED</span></td><td>Very good condition.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Drive shafts and boots</strong></td><td><span class="status good">CHECKED</span></td><td>Very good condition.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Brake hoses and lines</strong></td><td><span class="status good">CHECKED</span></td><td>Good condition.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Brake fluid</strong></td><td><span class="status good">CHECKED</span></td><td>Good condition and full level; not a fluid replacement.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Air conditioning refrigerant</strong></td><td><span class="status good">CHECKED</span></td><td>Very good; air conditioning is very cold.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Steering gear box, linkage, boots and arm ball joints</strong></td><td><span class="status good">CHECKED</span></td><td>Lower and upper arm ball joints and steering components in excellent condition.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Fuel additive</strong></td><td><span class="status good">COMPLETED</span></td><td>Additive added.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Climate control air filter</strong></td><td><span class="status good">REPLACED</span></td><td>New filter installed 2026-09-13; earlier replacement confirmed.</td><td>2026-09-13<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Engine coolant</strong></td><td><span class="status good">CHECKED</span></td><td>Very good condition; not a coolant replacement.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Engine oil and filter</strong></td><td><span class="status good">REPLACED</span></td><td>Fresh oil and new filter installed.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Drive belts</strong></td><td><span class="status good">CHECKED</span></td><td>Checked and in good condition.</td><td>2026-09-17<br>78,432 miles</td></tr></tbody></table></div></section>
+  <section class="panel" id="needs-attention"><div class="panel-title"><div><span class="eyebrow">PRIORITY ACTIONS</span><h2>What needs attention?</h2><p class="muted">Overdue items requiring action.</p></div></div><p class="empty">No overdue items requiring action.</p></section>
   <section class="panel" id="for-your-information"><div class="panel-title"><div><span class="eyebrow">NOTES &amp; UPCOMING ITEMS</span><h2>For your information</h2><p class="muted">Upcoming service, checks to clarify, and owner decisions. Current and later services remain in the complete maintenance table below.</p></div></div><article class="attention-row warning">
-  <div class="attention-main"><span class="status warning">DUE SOON</span><h4>Engine Oil and Filter</h4><p>The fixed due threshold is approaching.</p></div>
-  <div class="attention-side"><b>Action</b><span>Replace</span><b>Due</b><span>86,263 miles or 2026-10-04</span></div>
-</article>
-<article class="attention-row warning">
-  <div class="attention-main"><span class="status warning">SOURCE REVIEW</span><h4>Engine Coolant</h4><p>The supplied PDF contains conflicting fixed rules for this item. Both rules are preserved and no interval is silently selected.</p></div>
+  <div class="attention-main"><span class="status warning">SOURCE REVIEW</span><h4>Engine Coolant</h4><p>Owner statement 2026-09-17 at 78,432 miles: condition very good. Inspection only; replacement baseline not reset. Locked source retains conflicting first replacement rules (60,000 miles/60 months versus 120,000 miles/120 months); replacement timing remains unresolved.</p></div>
   <div class="attention-side"><b>Action</b><span>Replace</span><b>Due</b><span>No calculated due point</span></div>
 </article>
 <article class="attention-row warning">
@@ -835,83 +834,15 @@
   <div class="attention-side"><b>Action</b><span>Inspect by condition</span><b>Due</b><span>No calculated due point</span></div>
 </article>
 <article class="attention-row warning">
-  <div class="attention-main"><span class="status warning">CHECK BY CONDITION</span><h4>Climate Control Air Filter (Evaporator and Blower Unit)</h4><p>Owner confirms replacement completed at 78432 miles because old filter was excessively dirty. Purchase invoice dated 2026-09-12; installation on 2026-09-13 confirmed by owner. Manufacturer condition-based rule unchanged; no fixed replacement interval invented.</p></div>
-  <div class="attention-side"><b>Action</b><span>Inspect by condition</span><b>Due</b><span>No calculated due point</span></div>
-</article>
-<article class="attention-row warning">
-  <div class="attention-main"><span class="status warning">CHECK BY CONDITION</span><h4>Front Brake Discs/Pads and Calipers</h4><p>Front brake pads replaced on 2026-09-07 at 77,964 miles. Front left and right pads were installed. Manufacturer source remains condition-based and provides no fixed replacement interval, so no future mileage/date is invented.</p></div>
-  <div class="attention-side"><b>Action</b><span>Inspect by condition</span><b>Due</b><span>No calculated due point</span></div>
-</article>
-<article class="attention-row warning">
-  <div class="attention-main"><span class="status warning">CHECK BY CONDITION</span><h4>Fuel Additive</h4><p>The source makes this service conditional. Confirm the stated condition before applying its conditional interval; no due mileage/date is calculated from an unknown condition.</p></div>
-  <div class="attention-side"><b>Action</b><span>Add if the source condition applies</span><b>Due</b><span>No calculated due point</span></div>
-</article>
-<article class="attention-row warning">
   <div class="attention-main"><span class="status warning">CHECK BY CONDITION</span><h4>Parking Brake</h4><p>The source says &#39;More frequently&#39; and gives no fixed interval. No known baseline exists; inspect condition and record the result without inventing a due mileage/date.</p></div>
   <div class="attention-side"><b>Action</b><span>Inspect</span><b>Due</b><span>No calculated due point</span></div>
-</article>
-<article class="attention-row warning">
-  <div class="attention-main"><span class="status warning">CHECK BY CONDITION</span><h4>Rear Brake Discs/Pads</h4><p>Rear brake pads were purchased on 2026-09-07 but NOT INSTALLED. Rear brake maintenance was not completed and no interval was reset. Keep the purchased pads available for future installation when required by condition.</p></div>
-  <div class="attention-side"><b>Action</b><span>Inspect - replacement pads already purchased</span><b>Due</b><span>No calculated due point</span></div>
 </article>
 <article class="attention-row warning">
   <div class="attention-main"><span class="status warning">CHECK BY CONDITION</span><h4>Spark Plugs (Iridium Coated, 2.4 GDI)</h4><p>The source says &#39;More frequently&#39; and gives no fixed interval. Inspect or replace according to condition; the last recorded baseline is shown, but no due mileage/date is invented.</p></div>
   <div class="attention-side"><b>Action</b><span>Replace</span><b>Due</b><span>No calculated due point</span></div>
 </article>
 <article class="attention-row warning">
-  <div class="attention-main"><span class="status warning">CHECK BY CONDITION</span><h4>Steering Gear Box, Linkage and Boots / Lower and Upper Arm Ball Joints</h4><p>The source says &#39;More frequently&#39; and gives no fixed interval. No known baseline exists; inspect condition and record the result without inventing a due mileage/date.</p></div>
-  <div class="attention-side"><b>Action</b><span>Inspect</span><b>Due</b><span>No calculated due point</span></div>
-</article>
-<article class="attention-row warning">
-  <div class="attention-main"><span class="status warning">VERIFY HISTORY</span><h4>Air Conditioning Refrigerant</h4><p>No usable recorded baseline exists for this fixed rule. Verify prior service history; the engine will not classify it as overdue from an assumed starting point.</p></div>
-  <div class="attention-side"><b>Action</b><span>Inspect</span><b>Due</b><span>No calculated due point</span></div>
-</article>
-<article class="attention-row warning">
-  <div class="attention-main"><span class="status warning">VERIFY HISTORY</span><h4>Brake Fluid</h4><p>No usable recorded baseline exists for this fixed rule. Verify prior service history; the engine will not classify it as overdue from an assumed starting point.</p></div>
-  <div class="attention-side"><b>Action</b><span>Inspect</span><b>Due</b><span>No calculated due point</span></div>
-</article>
-<article class="attention-row warning">
-  <div class="attention-main"><span class="status warning">VERIFY HISTORY</span><h4>Brake Hoses and Lines</h4><p>No usable recorded baseline exists for this fixed rule. Verify prior service history; the engine will not classify it as overdue from an assumed starting point.</p></div>
-  <div class="attention-side"><b>Action</b><span>Inspect</span><b>Due</b><span>No calculated due point</span></div>
-</article>
-<article class="attention-row warning">
-  <div class="attention-main"><span class="status warning">VERIFY HISTORY</span><h4>Drive Shafts and Boots</h4><p>No usable recorded baseline exists for this fixed rule. Verify prior service history; the engine will not classify it as overdue from an assumed starting point.</p></div>
-  <div class="attention-side"><b>Action</b><span>Inspect</span><b>Due</b><span>No calculated due point</span></div>
-</article>
-<article class="attention-row warning">
   <div class="attention-main"><span class="status warning">VERIFY HISTORY</span><h4>Exhaust Pipe and Muffler</h4><p>No usable recorded baseline exists for this fixed rule. Verify prior service history; the engine will not classify it as overdue from an assumed starting point.</p></div>
-  <div class="attention-side"><b>Action</b><span>Inspect</span><b>Due</b><span>No calculated due point</span></div>
-</article>
-<article class="attention-row warning">
-  <div class="attention-main"><span class="status warning">VERIFY HISTORY</span><h4>Fuel Filter</h4><p>No usable recorded baseline exists for this fixed rule. Verify prior service history; the engine will not classify it as overdue from an assumed starting point.</p></div>
-  <div class="attention-side"><b>Action</b><span>Inspect; replace immediately if the source-listed symptoms occur</span><b>Due</b><span>No calculated due point</span></div>
-</article>
-<article class="attention-row warning">
-  <div class="attention-main"><span class="status warning">VERIFY HISTORY</span><h4>Fuel Lines, Fuel Hoses and Connections</h4><p>No usable recorded baseline exists for this fixed rule. Verify prior service history; the engine will not classify it as overdue from an assumed starting point.</p></div>
-  <div class="attention-side"><b>Action</b><span>Inspect</span><b>Due</b><span>No calculated due point</span></div>
-</article>
-<article class="attention-row warning">
-  <div class="attention-main"><span class="status warning">VERIFY HISTORY</span><h4>Fuel Tank Air Filter</h4><p>No usable recorded baseline exists for this fixed rule. Verify prior service history; the engine will not classify it as overdue from an assumed starting point.</p></div>
-  <div class="attention-side"><b>Action</b><span>Inspect if equipped</span><b>Due</b><span>No calculated due point</span></div>
-</article>
-<article class="attention-row warning">
-  <div class="attention-main"><span class="status warning">VERIFY HISTORY</span><h4>Suspension Mounting Bolts</h4><p>No usable recorded baseline exists for this fixed rule. Verify prior service history; the engine will not classify it as overdue from an assumed starting point.</p></div>
-  <div class="attention-side"><b>Action</b><span>Inspect</span><b>Due</b><span>No calculated due point</span></div>
-</article>
-<article class="attention-row warning">
-  <div class="attention-main"><span class="status warning">VERIFY HISTORY</span><h4>Tire Rotation</h4><p>No usable recorded baseline exists for this fixed rule. Verify prior service history; the engine will not classify it as overdue from an assumed starting point.</p></div>
-  <div class="attention-side"><b>Action</b><span>Rotate</span><b>Due</b><span>No calculated due point</span></div>
-</article>
-<article class="attention-row warning">
-  <div class="attention-main"><span class="status warning">VERIFY HISTORY</span><h4>Vacuum Hose</h4><p>No usable recorded baseline exists for this fixed rule. Verify prior service history; the engine will not classify it as overdue from an assumed starting point.</p></div>
-  <div class="attention-side"><b>Action</b><span>Inspect</span><b>Due</b><span>No calculated due point</span></div>
-</article>
-<article class="attention-row warning">
-  <div class="attention-main"><span class="status warning">VERIFY HISTORY</span><h4>Valve Clearance</h4><p>No usable recorded baseline exists for this fixed rule. Verify prior service history; the engine will not classify it as overdue from an assumed starting point.</p></div>
-  <div class="attention-side"><b>Action</b><span>Inspect if equipped</span><b>Due</b><span>No calculated due point</span></div>
-</article>
-<article class="attention-row warning">
-  <div class="attention-main"><span class="status warning">VERIFY HISTORY</span><h4>Vapor Hose and Fuel Filler Cap</h4><p>No usable recorded baseline exists for this fixed rule. Verify prior service history; the engine will not classify it as overdue from an assumed starting point.</p></div>
   <div class="attention-side"><b>Action</b><span>Inspect</span><b>Due</b><span>No calculated due point</span></div>
 </article></section>
   <section class="panel"><div class="panel-title"><div><span class="eyebrow">OWNERSHIP COST</span><h2>Bills and estimated history</h2></div></div><div class="money-grid">
@@ -1068,34 +999,148 @@
   <div class="history-cost"><strong>AED 170.00</strong></div>
   <div class="history-file"><span class="muted">No document linked</span></div>
 </article></details></section>
-  <section class="panel"><div class="panel-title"><div><span class="eyebrow">FULL STATUS</span><h2>Complete maintenance status</h2></div></div><div class="table-wrap"><table><thead><tr><th>Item</th><th>Status</th><th>Action</th><th>Next due</th><th>Reason</th></tr></thead><tbody><tr><td><strong>Drive Belts</strong><small>Engine</small></td><td><span class="status danger">OVERDUE</span></td><td>Inspect</td><td>77,600 miles or 2026-06-27</td><td>Overdue by mileage and date under the selected fixed rule.</td></tr>
-<tr><td><strong>Engine Oil and Filter</strong><small>Engine</small></td><td><span class="status warning">DUE SOON</span></td><td>Replace</td><td>86,263 miles or 2026-10-04</td><td>The fixed due threshold is approaching.</td></tr>
-<tr><td><strong>Engine Coolant</strong><small>Cooling</small></td><td><span class="status warning">SOURCE REVIEW</span></td><td>Replace</td><td>No calculated due point</td><td>The supplied PDF contains conflicting fixed rules for this item. Both rules are preserved and no interval is silently selected.</td></tr>
+  <section class="panel"><div class="panel-title"><div><span class="eyebrow">FULL STATUS</span><h2>Complete maintenance status</h2></div></div><div class="table-wrap"><table><thead><tr><th>Item</th><th>Status</th><th>Action</th><th>Next due</th><th>Reason</th></tr></thead><tbody><tr><td><strong>Drive Belts</strong><small>Engine</small></td><td><span class="status good">CHECKED</span></td><td>Inspect</td><td>93,432 miles or 2028-09-17</td><td>Owner statement: Checked and in good condition. Completed 2026-09-17 at 78432 miles. Next due uses unchanged NORMAL rule: First inspect at 60,000 miles (96,000 km) or 72 months; then every 15,000 miles (24,000 km) or 24 months.</td></tr>
+<tr><td><strong>Engine Oil and Filter</strong><small>Engine</small></td><td><span class="status good">COMPLETED</span></td><td>Replace</td><td>88,432 miles or 2027-03-17</td><td>Owner statement: Fresh oil and new filter installed. Completed 2026-09-17 at 78432 miles. Next due uses unchanged OWNER_OVERRIDE rule: 10,000 miles or 6 months, whichever comes first.</td></tr>
+<tr><td><strong>Engine Coolant</strong><small>Cooling</small></td><td><span class="status warning">SOURCE REVIEW</span></td><td>Replace</td><td>No calculated due point</td><td>Owner statement 2026-09-17 at 78,432 miles: condition very good. Inspection only; replacement baseline not reset. Locked source retains conflicting first replacement rules (60,000 miles/60 months versus 120,000 miles/120 months); replacement timing remains unresolved.</td></tr>
 <tr><td><strong>Air Cleaner Filter</strong><small>Engine</small></td><td><span class="status warning">CHECK BY CONDITION</span></td><td>Inspect by condition</td><td>No calculated due point</td><td>Owner confirms replacement completed at 78432 miles because old filter was excessively dirty. Purchase invoice dated 2026-09-12; installation on 2026-09-13 confirmed by owner. Manufacturer condition-based rule unchanged; no fixed replacement interval invented.</td></tr>
-<tr><td><strong>Climate Control Air Filter (Evaporator and Blower Unit)</strong><small>HVAC</small></td><td><span class="status warning">CHECK BY CONDITION</span></td><td>Inspect by condition</td><td>No calculated due point</td><td>Owner confirms replacement completed at 78432 miles because old filter was excessively dirty. Purchase invoice dated 2026-09-12; installation on 2026-09-13 confirmed by owner. Manufacturer condition-based rule unchanged; no fixed replacement interval invented.</td></tr>
-<tr><td><strong>Front Brake Discs/Pads and Calipers</strong><small>Brakes</small></td><td><span class="status warning">CHECK BY CONDITION</span></td><td>Inspect by condition</td><td>No calculated due point</td><td>Front brake pads replaced on 2026-09-07 at 77,964 miles. Front left and right pads were installed. Manufacturer source remains condition-based and provides no fixed replacement interval, so no future mileage/date is invented.</td></tr>
-<tr><td><strong>Fuel Additive</strong><small>Fuel System</small></td><td><span class="status warning">CHECK BY CONDITION</span></td><td>Add if the source condition applies</td><td>No calculated due point</td><td>The source makes this service conditional. Confirm the stated condition before applying its conditional interval; no due mileage/date is calculated from an unknown condition.</td></tr>
+<tr><td><strong>Climate Control Air Filter (Evaporator and Blower Unit)</strong><small>HVAC</small></td><td><span class="status good">COMPLETED</span></td><td>REPLACED</td><td>No calculated due point</td><td>Owner statement: New filter installed 2026-09-13; earlier replacement confirmed. Completed 2026-09-13 at 78432 miles.</td></tr>
+<tr><td><strong>Front Brake Discs/Pads and Calipers</strong><small>Brakes</small></td><td><span class="status good">PARTIALLY CHECKED</span></td><td>Front pads replaced; discs checked</td><td>No calculated due point</td><td>Front pads on both wheels replaced 2026-09-07 at 77,964 miles, reconfirmed today. All discs checked good 2026-09-17 at 78,432 miles. Caliper inspection not reported; full grouped inspection not reset.</td></tr>
+<tr><td><strong>Fuel Additive</strong><small>Fuel System</small></td><td><span class="status good">COMPLETED</span></td><td>COMPLETED</td><td>No calculated due point</td><td>Owner statement: Additive added. Completed 2026-09-17 at 78432 miles. No unconditional due date assigned: source interval applies only when TOP TIER Detergent Gasoline is unavailable.</td></tr>
 <tr><td><strong>Parking Brake</strong><small>Brakes</small></td><td><span class="status warning">CHECK BY CONDITION</span></td><td>Inspect</td><td>No calculated due point</td><td>The source says &#39;More frequently&#39; and gives no fixed interval. No known baseline exists; inspect condition and record the result without inventing a due mileage/date.</td></tr>
-<tr><td><strong>Rear Brake Discs/Pads</strong><small>Brakes</small></td><td><span class="status warning">CHECK BY CONDITION</span></td><td>Inspect - replacement pads already purchased</td><td>No calculated due point</td><td>Rear brake pads were purchased on 2026-09-07 but NOT INSTALLED. Rear brake maintenance was not completed and no interval was reset. Keep the purchased pads available for future installation when required by condition.</td></tr>
+<tr><td><strong>Rear Brake Discs/Pads</strong><small>Brakes</small></td><td><span class="status good">CHECKED</span></td><td>CHECKED</td><td>No calculated due point</td><td>Owner statement: Existing pads very good. Spare rear pad kit remains in stock for later use. Completed 2026-09-17 at 78432 miles. Rear discs checked good today; spare pads NOT installed.</td></tr>
 <tr><td><strong>Spark Plugs (Iridium Coated, 2.4 GDI)</strong><small>Engine</small></td><td><span class="status warning">CHECK BY CONDITION</span></td><td>Replace</td><td>No calculated due point</td><td>The source says &#39;More frequently&#39; and gives no fixed interval. Inspect or replace according to condition; the last recorded baseline is shown, but no due mileage/date is invented.</td></tr>
-<tr><td><strong>Steering Gear Box, Linkage and Boots / Lower and Upper Arm Ball Joints</strong><small>Steering and Suspension</small></td><td><span class="status warning">CHECK BY CONDITION</span></td><td>Inspect</td><td>No calculated due point</td><td>The source says &#39;More frequently&#39; and gives no fixed interval. No known baseline exists; inspect condition and record the result without inventing a due mileage/date.</td></tr>
-<tr><td><strong>Air Conditioning Refrigerant</strong><small>HVAC</small></td><td><span class="status warning">VERIFY HISTORY</span></td><td>Inspect</td><td>No calculated due point</td><td>No usable recorded baseline exists for this fixed rule. Verify prior service history; the engine will not classify it as overdue from an assumed starting point.</td></tr>
-<tr><td><strong>Brake Fluid</strong><small>Brakes</small></td><td><span class="status warning">VERIFY HISTORY</span></td><td>Inspect</td><td>No calculated due point</td><td>No usable recorded baseline exists for this fixed rule. Verify prior service history; the engine will not classify it as overdue from an assumed starting point.</td></tr>
-<tr><td><strong>Brake Hoses and Lines</strong><small>Brakes</small></td><td><span class="status warning">VERIFY HISTORY</span></td><td>Inspect</td><td>No calculated due point</td><td>No usable recorded baseline exists for this fixed rule. Verify prior service history; the engine will not classify it as overdue from an assumed starting point.</td></tr>
-<tr><td><strong>Drive Shafts and Boots</strong><small>Driveline</small></td><td><span class="status warning">VERIFY HISTORY</span></td><td>Inspect</td><td>No calculated due point</td><td>No usable recorded baseline exists for this fixed rule. Verify prior service history; the engine will not classify it as overdue from an assumed starting point.</td></tr>
+<tr><td><strong>Steering Gear Box, Linkage and Boots / Lower and Upper Arm Ball Joints</strong><small>Steering and Suspension</small></td><td><span class="status good">CHECKED</span></td><td>CHECKED</td><td>No calculated due point</td><td>Owner statement: Lower and upper arm ball joints and steering components in excellent condition. Completed 2026-09-17 at 78432 miles.</td></tr>
+<tr><td><strong>Air Conditioning Refrigerant</strong><small>HVAC</small></td><td><span class="status good">CHECKED</span></td><td>Inspect</td><td>93,432 miles or 2027-09-17</td><td>Owner statement: Very good; air conditioning is very cold. Completed 2026-09-17 at 78432 miles. Next due uses unchanged NORMAL rule: Inspect every 15,000 miles (24,000 km) or 12 months.</td></tr>
+<tr><td><strong>Brake Fluid</strong><small>Brakes</small></td><td><span class="status good">CHECKED</span></td><td>Inspect</td><td>108,432 miles or 2028-09-17</td><td>Owner statement: Good condition and full level; not a fluid replacement. Completed 2026-09-17 at 78432 miles. Next due uses unchanged NORMAL rule: Inspect every 30,000 miles (48,000 km) or 24 months.</td></tr>
+<tr><td><strong>Brake Hoses and Lines</strong><small>Brakes</small></td><td><span class="status good">CHECKED</span></td><td>Inspect</td><td>93,432 miles or 2027-09-17</td><td>Owner statement: Good condition. Completed 2026-09-17 at 78432 miles. Next due uses unchanged NORMAL rule: Inspect every 15,000 miles (24,000 km) or 12 months.</td></tr>
+<tr><td><strong>Drive Shafts and Boots</strong><small>Driveline</small></td><td><span class="status good">CHECKED</span></td><td>Inspect</td><td>85,932 miles or 2027-03-17</td><td>Owner statement: Very good condition. Completed 2026-09-17 at 78432 miles. Next due uses unchanged SEVERE rule: Every 7,500 miles (12,000 km) or 6 months.</td></tr>
 <tr><td><strong>Exhaust Pipe and Muffler</strong><small>Exhaust</small></td><td><span class="status warning">VERIFY HISTORY</span></td><td>Inspect</td><td>No calculated due point</td><td>No usable recorded baseline exists for this fixed rule. Verify prior service history; the engine will not classify it as overdue from an assumed starting point.</td></tr>
-<tr><td><strong>Fuel Filter</strong><small>Fuel System</small></td><td><span class="status warning">VERIFY HISTORY</span></td><td>Inspect; replace immediately if the source-listed symptoms occur</td><td>No calculated due point</td><td>No usable recorded baseline exists for this fixed rule. Verify prior service history; the engine will not classify it as overdue from an assumed starting point.</td></tr>
-<tr><td><strong>Fuel Lines, Fuel Hoses and Connections</strong><small>Fuel System</small></td><td><span class="status warning">VERIFY HISTORY</span></td><td>Inspect</td><td>No calculated due point</td><td>No usable recorded baseline exists for this fixed rule. Verify prior service history; the engine will not classify it as overdue from an assumed starting point.</td></tr>
-<tr><td><strong>Fuel Tank Air Filter</strong><small>Fuel System</small></td><td><span class="status warning">VERIFY HISTORY</span></td><td>Inspect if equipped</td><td>No calculated due point</td><td>No usable recorded baseline exists for this fixed rule. Verify prior service history; the engine will not classify it as overdue from an assumed starting point.</td></tr>
-<tr><td><strong>Suspension Mounting Bolts</strong><small>Suspension</small></td><td><span class="status warning">VERIFY HISTORY</span></td><td>Inspect</td><td>No calculated due point</td><td>No usable recorded baseline exists for this fixed rule. Verify prior service history; the engine will not classify it as overdue from an assumed starting point.</td></tr>
-<tr><td><strong>Tire Rotation</strong><small>Tires</small></td><td><span class="status warning">VERIFY HISTORY</span></td><td>Rotate</td><td>No calculated due point</td><td>No usable recorded baseline exists for this fixed rule. Verify prior service history; the engine will not classify it as overdue from an assumed starting point.</td></tr>
-<tr><td><strong>Vacuum Hose</strong><small>Engine</small></td><td><span class="status warning">VERIFY HISTORY</span></td><td>Inspect</td><td>No calculated due point</td><td>No usable recorded baseline exists for this fixed rule. Verify prior service history; the engine will not classify it as overdue from an assumed starting point.</td></tr>
-<tr><td><strong>Valve Clearance</strong><small>Engine</small></td><td><span class="status warning">VERIFY HISTORY</span></td><td>Inspect if equipped</td><td>No calculated due point</td><td>No usable recorded baseline exists for this fixed rule. Verify prior service history; the engine will not classify it as overdue from an assumed starting point.</td></tr>
-<tr><td><strong>Vapor Hose and Fuel Filler Cap</strong><small>Fuel and Emissions</small></td><td><span class="status warning">VERIFY HISTORY</span></td><td>Inspect</td><td>No calculated due point</td><td>No usable recorded baseline exists for this fixed rule. Verify prior service history; the engine will not classify it as overdue from an assumed starting point.</td></tr>
+<tr><td><strong>Fuel Filter</strong><small>Fuel System</small></td><td><span class="status good">CHECKED</span></td><td>Inspect; replace immediately if the source-listed symptoms occur</td><td>108,432 miles or 2028-09-17</td><td>Owner statement: Very good condition. Completed 2026-09-17 at 78432 miles. Next due uses unchanged NORMAL rule: Inspect at the 30,000-mile/24-month maintenance points; replacement is condition/symptom based.</td></tr>
+<tr><td><strong>Fuel Lines, Fuel Hoses and Connections</strong><small>Fuel System</small></td><td><span class="status good">CHECKED</span></td><td>Inspect</td><td>108,432 miles or 2028-09-17</td><td>Owner statement: Very good condition. Completed 2026-09-17 at 78432 miles. Next due uses unchanged NORMAL rule: Inspect every 30,000 miles (48,000 km) or 24 months.</td></tr>
+<tr><td><strong>Fuel Tank Air Filter</strong><small>Fuel System</small></td><td><span class="status good">CHECKED</span></td><td>Inspect if equipped</td><td>108,432 miles or 2028-09-17</td><td>Owner statement: Good condition. Completed 2026-09-17 at 78432 miles. Next due uses unchanged NORMAL rule: Inspect every 30,000 miles (48,000 km) or 24 months.</td></tr>
+<tr><td><strong>Suspension Mounting Bolts</strong><small>Suspension</small></td><td><span class="status good">CHECKED</span></td><td>Inspect</td><td>93,432 miles or 2027-09-17</td><td>Owner statement: Very good condition. Completed 2026-09-17 at 78432 miles. Next due uses unchanged NORMAL rule: Inspect every 15,000 miles (24,000 km) or 12 months.</td></tr>
+<tr><td><strong>Tire Rotation</strong><small>Tires</small></td><td><span class="status good">COMPLETED</span></td><td>Rotate</td><td>85,932 miles or 2027-03-17</td><td>Owner statement: Rotation completed. Completed 2026-09-17 at 78432 miles. Next due uses unchanged NORMAL rule: Rotate at each 7,500-mile/6-month maintenance point.</td></tr>
+<tr><td><strong>Vacuum Hose</strong><small>Engine</small></td><td><span class="status good">CHECKED</span></td><td>Inspect</td><td>85,932 miles or 2027-03-17</td><td>Owner statement: Good condition. Completed 2026-09-17 at 78432 miles. Next due uses unchanged NORMAL rule: Inspect at each 7,500-mile/6-month maintenance point.</td></tr>
+<tr><td><strong>Valve Clearance</strong><small>Engine</small></td><td><span class="status good">CHECKED</span></td><td>Inspect if equipped</td><td>138,432 miles or 2032-09-17</td><td>Owner statement: Reported in good condition; no adjustment or measurement values supplied. Completed 2026-09-17 at 78432 miles. Next due uses unchanged NORMAL rule: Inspect every 60,000 miles (96,000 km) or 72 months.</td></tr>
+<tr><td><strong>Vapor Hose and Fuel Filler Cap</strong><small>Fuel and Emissions</small></td><td><span class="status good">CHECKED</span></td><td>Inspect</td><td>108,432 miles or 2028-09-17</td><td>Owner statement: Very good condition. Completed 2026-09-17 at 78432 miles. Next due uses unchanged NORMAL rule: Inspect every 30,000 miles (48,000 km) or 24 months.</td></tr>
 <tr><td><strong>Automatic Transmission Fluid</strong><small>Transmission</small></td><td><span class="status good">LATER</span></td><td>Replace</td><td>127,956 miles</td><td>Not currently due under the selected fixed rule.</td></tr></tbody></table></div></section>
   <section class="panel split"><div><span class="eyebrow">OWNER POLICY &mdash; SEPARATE</span><h2>Owner maintenance policy</h2><ul><li>Engine oil and filter: every 10,000 miles or 6 months, whichever comes first.</li>
 <li>This is the only owner override and remains separate from the locked manufacturer schedule.</li></ul></div><div><span class="eyebrow">LOCKED SOURCE ONLY</span><h2>Manufacturer fluid specifications</h2><p>Manufacturer fluid specifications have not been copied from the locked source into this dashboard. No specification is invented here; consult the locked source before selecting any fluid.</p></div></section>
   <section class="panel"><div class="panel-title"><div><span class="eyebrow">RECORDED WORK</span><h2>Maintenance history</h2></div></div><article class="history-row">
+  <div class="history-date"><strong>2026-09-17</strong><span>78,432 miles</span></div>
+  <div class="history-body"><h4>Vapor hose and fuel filler cap</h4><p>CHECKED: Very good condition.</p><small> | Ref: Owner statement</small></div>
+  <div class="history-cost"></div>
+  <div class="history-file"><span class="muted">No document linked</span></div>
+</article>
+<article class="history-row">
+  <div class="history-date"><strong>2026-09-17</strong><span>78,432 miles</span></div>
+  <div class="history-body"><h4>Engine coolant</h4><p>CHECKED: Very good condition; not a coolant replacement.</p><small> | Ref: Owner statement</small></div>
+  <div class="history-cost"></div>
+  <div class="history-file"><span class="muted">No document linked</span></div>
+</article>
+<article class="history-row">
+  <div class="history-date"><strong>2026-09-17</strong><span>78,432 miles</span></div>
+  <div class="history-body"><h4>Fuel additive</h4><p>COMPLETED: Additive added.</p><small> | Ref: Owner statement</small></div>
+  <div class="history-cost"></div>
+  <div class="history-file"><span class="muted">No document linked</span></div>
+</article>
+<article class="history-row">
+  <div class="history-date"><strong>2026-09-17</strong><span>78,432 miles</span></div>
+  <div class="history-body"><h4>Steering gear box, linkage, boots and arm ball joints</h4><p>CHECKED: Lower and upper arm ball joints and steering components in excellent condition.</p><small> | Ref: Owner statement</small></div>
+  <div class="history-cost"></div>
+  <div class="history-file"><span class="muted">No document linked</span></div>
+</article>
+<article class="history-row">
+  <div class="history-date"><strong>2026-09-17</strong><span>78,432 miles</span></div>
+  <div class="history-body"><h4>Air conditioning refrigerant</h4><p>CHECKED: Very good; air conditioning is very cold.</p><small> | Ref: Owner statement</small></div>
+  <div class="history-cost"></div>
+  <div class="history-file"><span class="muted">No document linked</span></div>
+</article>
+<article class="history-row">
+  <div class="history-date"><strong>2026-09-17</strong><span>78,432 miles</span></div>
+  <div class="history-body"><h4>Brake fluid</h4><p>CHECKED: Good condition and full level; not a fluid replacement.</p><small> | Ref: Owner statement</small></div>
+  <div class="history-cost"></div>
+  <div class="history-file"><span class="muted">No document linked</span></div>
+</article>
+<article class="history-row">
+  <div class="history-date"><strong>2026-09-17</strong><span>78,432 miles</span></div>
+  <div class="history-body"><h4>Brake hoses and lines</h4><p>CHECKED: Good condition.</p><small> | Ref: Owner statement</small></div>
+  <div class="history-cost"></div>
+  <div class="history-file"><span class="muted">No document linked</span></div>
+</article>
+<article class="history-row">
+  <div class="history-date"><strong>2026-09-17</strong><span>78,432 miles</span></div>
+  <div class="history-body"><h4>Drive shafts and boots</h4><p>CHECKED: Very good condition.</p><small> | Ref: Owner statement</small></div>
+  <div class="history-cost"></div>
+  <div class="history-file"><span class="muted">No document linked</span></div>
+</article>
+<article class="history-row">
+  <div class="history-date"><strong>2026-09-17</strong><span>78,432 miles</span></div>
+  <div class="history-body"><h4>Fuel filter</h4><p>CHECKED: Very good condition.</p><small> | Ref: Owner statement</small></div>
+  <div class="history-cost"></div>
+  <div class="history-file"><span class="muted">No document linked</span></div>
+</article>
+<article class="history-row">
+  <div class="history-date"><strong>2026-09-17</strong><span>78,432 miles</span></div>
+  <div class="history-body"><h4>Fuel lines, fuel hoses and connections</h4><p>CHECKED: Very good condition.</p><small> | Ref: Owner statement</small></div>
+  <div class="history-cost"></div>
+  <div class="history-file"><span class="muted">No document linked</span></div>
+</article>
+<article class="history-row">
+  <div class="history-date"><strong>2026-09-17</strong><span>78,432 miles</span></div>
+  <div class="history-body"><h4>Fuel tank air filter</h4><p>CHECKED: Good condition.</p><small> | Ref: Owner statement</small></div>
+  <div class="history-cost"></div>
+  <div class="history-file"><span class="muted">No document linked</span></div>
+</article>
+<article class="history-row">
+  <div class="history-date"><strong>2026-09-17</strong><span>78,432 miles</span></div>
+  <div class="history-body"><h4>Suspension mounting bolts</h4><p>CHECKED: Very good condition.</p><small> | Ref: Owner statement</small></div>
+  <div class="history-cost"></div>
+  <div class="history-file"><span class="muted">No document linked</span></div>
+</article>
+<article class="history-row">
+  <div class="history-date"><strong>2026-09-17</strong><span>78,432 miles</span></div>
+  <div class="history-body"><h4>Tire rotation</h4><p>COMPLETED: Rotation completed.</p><small> | Ref: Owner statement</small></div>
+  <div class="history-cost"></div>
+  <div class="history-file"><span class="muted">No document linked</span></div>
+</article>
+<article class="history-row">
+  <div class="history-date"><strong>2026-09-17</strong><span>78,432 miles</span></div>
+  <div class="history-body"><h4>Vacuum hose</h4><p>CHECKED: Good condition.</p><small> | Ref: Owner statement</small></div>
+  <div class="history-cost"></div>
+  <div class="history-file"><span class="muted">No document linked</span></div>
+</article>
+<article class="history-row">
+  <div class="history-date"><strong>2026-09-17</strong><span>78,432 miles</span></div>
+  <div class="history-body"><h4>Valve clearance</h4><p>CHECKED: Reported in good condition; no adjustment or measurement values supplied.</p><small> | Ref: Owner statement</small></div>
+  <div class="history-cost"></div>
+  <div class="history-file"><span class="muted">No document linked</span></div>
+</article>
+<article class="history-row">
+  <div class="history-date"><strong>2026-09-17</strong><span>78,432 miles</span></div>
+  <div class="history-body"><h4>Engine oil and filter</h4><p>REPLACED: Fresh oil and new filter installed.</p><small> | Ref: Owner statement</small></div>
+  <div class="history-cost"></div>
+  <div class="history-file"><span class="muted">No document linked</span></div>
+</article>
+<article class="history-row">
+  <div class="history-date"><strong>2026-09-17</strong><span>78,432 miles</span></div>
+  <div class="history-body"><h4>Drive belts</h4><p>CHECKED: Checked and in good condition.</p><small> | Ref: Owner statement</small></div>
+  <div class="history-cost"></div>
+  <div class="history-file"><span class="muted">No document linked</span></div>
+</article>
+<article class="history-row">
+  <div class="history-date"><strong>2026-09-17</strong><span>78,432 miles</span></div>
+  <div class="history-body"><h4>Rear brake pads</h4><p>CHECKED: Existing pads very good. Spare rear pad kit remains in stock for later use.</p><small> | Ref: Owner statement</small></div>
+  <div class="history-cost"></div>
+  <div class="history-file"><span class="muted">No document linked</span></div>
+</article>
+<article class="history-row">
+  <div class="history-date"><strong>2026-09-17</strong><span>78,432 miles</span></div>
+  <div class="history-body"><h4>All wheel brake discs</h4><p>CHECKED: All four discs in good condition.</p><small> | Ref: Owner statement</small></div>
+  <div class="history-cost"></div>
+  <div class="history-file"><span class="muted">No document linked</span></div>
+</article>
+<article class="history-row">
   <div class="history-date"><strong>2026-09-13</strong><span>78,432 miles</span></div>
   <div class="history-body"><h4>Engine air and cabin filters replaced</h4><p>Both purchased filters installed, replacing excessively dirty old filters. Engine air 28113-C1100; A/C D4C79-AC001. Owner confirms installation date 2026-09-13. Parts AED 125 counted once in financial history. No additional labour expense reported.</p><small> | Ref: Owner statement 2026-09-13; INV_KHR/2026/09/0750; S0/SPM/320056</small></div>
   <div class="history-cost"></div>
@@ -1103,13 +1148,13 @@
 </article>
 <article class="history-row">
   <div class="history-date"><strong>2026-09-11</strong><span>78,432 miles</span></div>
-  <div class="history-body"><h4>Engine oil top-up - 1 L from shared stock</h4><p>Owner measured L, added 1 L and confirmed F. Previous F baseline 2026-09-08 at 77964 miles. Difference 468 miles = 753.173 km over 3 calendar days. First provisional full-to-full usage estimate; not an oil/filter replacement. No new spending.</p><small> | Ref: Owner statement</small></div>
+  <div class="history-body"><h4>Engine air and cabin filters inspected - worn, replacement required</h4><p>Owner reports both filters deteriorated. Replace both now; neither replaced yet. Source condition-based rules unchanged. No purchase or expense reported.</p><small> | Ref: Owner statement</small></div>
   <div class="history-cost"></div>
   <div class="history-file"><span class="muted">No document linked</span></div>
 </article>
 <article class="history-row">
   <div class="history-date"><strong>2026-09-11</strong><span>78,432 miles</span></div>
-  <div class="history-body"><h4>Engine air and cabin filters inspected - worn, replacement required</h4><p>Owner reports both filters deteriorated. Replace both now; neither replaced yet. Source condition-based rules unchanged. No purchase or expense reported.</p><small> | Ref: Owner statement</small></div>
+  <div class="history-body"><h4>Engine oil top-up - 1 L from shared stock</h4><p>Owner measured L, added 1 L and confirmed F. Previous F baseline 2026-09-08 at 77964 miles. Difference 468 miles = 753.173 km over 3 calendar days. First provisional full-to-full usage estimate; not an oil/filter replacement. No new spending.</p><small> | Ref: Owner statement</small></div>
   <div class="history-cost"></div>
   <div class="history-file"><span class="muted">No document linked</span></div>
 </article>
@@ -1145,7 +1190,7 @@
 </article>
 <article class="history-row">
   <div class="history-date"><strong>2024-11-12</strong><span>67,956 miles</span></div>
-  <div class="history-body"><h4>Automatic Transmission Fluid</h4><p>Replaced; Automatic transmission fluid replaced; invoice lists 4 units.</p><small> | Ref: Invoice CG-INV-2411-85541</small></div>
+  <div class="history-body"><h4>Engine Air Cleaner Filter</h4><p>Replaced; Genuine Hyundai Engine Air Cleaner Filter; Genuine filter purchased and replaced by owner around the same date as invoice CG-INV-2411-85541.</p><small>Owner Installed | Ref: Invoice + owner confirmation</small></div>
   <div class="history-cost"></div>
   <div class="history-file"><span class="muted">No document linked</span></div>
 </article>
@@ -1157,7 +1202,7 @@
 </article>
 <article class="history-row">
   <div class="history-date"><strong>2024-11-12</strong><span>67,956 miles</span></div>
-  <div class="history-body"><h4>Engine Air Cleaner Filter</h4><p>Replaced; Genuine Hyundai Engine Air Cleaner Filter; Genuine filter purchased and replaced by owner around the same date as invoice CG-INV-2411-85541.</p><small>Owner Installed | Ref: Invoice + owner confirmation</small></div>
+  <div class="history-body"><h4>Automatic Transmission Fluid</h4><p>Replaced; Automatic transmission fluid replaced; invoice lists 4 units.</p><small> | Ref: Invoice CG-INV-2411-85541</small></div>
   <div class="history-cost"></div>
   <div class="history-file"><span class="muted">No document linked</span></div>
 </article>
@@ -1269,7 +1314,7 @@
   <div class="history-cost"></div>
   <div class="history-file"><span class="muted">No document linked</span></div>
 </article></section>
-</main><footer class="footer">Generated 2026-09-16 09:43:32 +04:00 &middot; Documents remain in local project folders and are referenced by link.</footer><dialog class="document-dialog no-print" id="documentDialog">
+</main><div class="maintenance-print-report"><div class="report-page"><div class="report-heading"><span>MAINTENANCE REPORT | 2026-09-17</span><h1>2017 Hyundai Sonata Sport</h1><p>78,432 miles / approx. 126,224 km</p></div><section class="panel completed-checks"><span class="eyebrow">CONFIRMED WORK &amp; INSPECTIONS</span><h2>Checked and completed</h2><p>Owner statement recorded 2026-09-17. Earlier replacement dates are preserved.</p><div class="table-wrap"><table><thead><tr><th>Item</th><th>Result</th><th>Details</th><th>Date / odometer</th></tr></thead><tbody><tr class="checked-result"><td><strong>Front brake pads - both front wheels</strong></td><td><span class="status good">REPLACED</span></td><td>Replacement confirmed; installed 2026-09-07.</td><td>2026-09-07<br>77,964 miles</td></tr><tr class="checked-result"><td><strong>Rear brake pads</strong></td><td><span class="status good">CHECKED</span></td><td>Existing pads very good. Spare rear pad kit remains in stock for later use.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>All wheel brake discs</strong></td><td><span class="status good">CHECKED</span></td><td>All four discs in good condition.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Vapor hose and fuel filler cap</strong></td><td><span class="status good">CHECKED</span></td><td>Very good condition.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Valve clearance</strong></td><td><span class="status good">CHECKED</span></td><td>Reported in good condition; no adjustment or measurement values supplied.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Vacuum hose</strong></td><td><span class="status good">CHECKED</span></td><td>Good condition.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Tire rotation</strong></td><td><span class="status good">COMPLETED</span></td><td>Rotation completed.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Suspension mounting bolts</strong></td><td><span class="status good">CHECKED</span></td><td>Very good condition.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Fuel tank air filter</strong></td><td><span class="status good">CHECKED</span></td><td>Good condition.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Fuel lines, fuel hoses and connections</strong></td><td><span class="status good">CHECKED</span></td><td>Very good condition.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Fuel filter</strong></td><td><span class="status good">CHECKED</span></td><td>Very good condition.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Drive shafts and boots</strong></td><td><span class="status good">CHECKED</span></td><td>Very good condition.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Brake hoses and lines</strong></td><td><span class="status good">CHECKED</span></td><td>Good condition.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Brake fluid</strong></td><td><span class="status good">CHECKED</span></td><td>Good condition and full level; not a fluid replacement.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Air conditioning refrigerant</strong></td><td><span class="status good">CHECKED</span></td><td>Very good; air conditioning is very cold.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Steering gear box, linkage, boots and arm ball joints</strong></td><td><span class="status good">CHECKED</span></td><td>Lower and upper arm ball joints and steering components in excellent condition.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Fuel additive</strong></td><td><span class="status good">COMPLETED</span></td><td>Additive added.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Climate control air filter</strong></td><td><span class="status good">REPLACED</span></td><td>New filter installed 2026-09-13; earlier replacement confirmed.</td><td>2026-09-13<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Engine coolant</strong></td><td><span class="status good">CHECKED</span></td><td>Very good condition; not a coolant replacement.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Engine oil and filter</strong></td><td><span class="status good">REPLACED</span></td><td>Fresh oil and new filter installed.</td><td>2026-09-17<br>78,432 miles</td></tr><tr class="checked-result"><td><strong>Drive belts</strong></td><td><span class="status good">CHECKED</span></td><td>Checked and in good condition.</td><td>2026-09-17<br>78,432 miles</td></tr></tbody></table></div></section><p class="report-footer">Owner-reported service and inspection results | 1 / 2</p></div><div class="report-page report-next-page"><div class="report-heading"><span>NEXT MAINTENANCE</span><h1>Upcoming scheduled work</h1><p>Baseline: 2026-09-17 | 78,432 miles / approx. 126,224 km</p></div><div class="report-summary">No confirmed overdue work among the completed checks.</div><p>Where both mileage and date are shown, use whichever comes first. Distances remain based on the vehicle's miles odometer; kilometre values are conversions.</p><table class="next-work"><thead><tr><th>Service / inspection</th><th>Next mileage</th><th>Next date</th></tr></thead><tbody><tr><td>Drive Shafts and Boots<br>Tire Rotation<br>Vacuum Hose</td><td>85,932 miles<br><small>Approx. 138,294 km</small></td><td>2027-03-17</td></tr><tr><td>Engine Oil and Filter</td><td>88,432 miles<br><small>Approx. 142,318 km</small></td><td>2027-03-17</td></tr><tr><td>Air Conditioning Refrigerant<br>Brake Hoses and Lines<br>Suspension Mounting Bolts</td><td>93,432 miles<br><small>Approx. 150,364 km</small></td><td>2027-09-17</td></tr><tr><td>Drive Belts</td><td>93,432 miles<br><small>Approx. 150,364 km</small></td><td>2028-09-17</td></tr><tr><td>Brake Fluid<br>Fuel Filter<br>Fuel Lines, Fuel Hoses and Connections<br>Fuel Tank Air Filter<br>Vapor Hose and Fuel Filler Cap</td><td>108,432 miles<br><small>Approx. 174,504 km</small></td><td>2028-09-17</td></tr><tr><td>Automatic Transmission Fluid</td><td>127,956 miles<br><small>Approx. 205,925 km</small></td><td>Mileage only</td></tr><tr><td>Valve Clearance</td><td>138,432 miles<br><small>Approx. 222,785 km</small></td><td>2032-09-17</td></tr></tbody></table><div class="report-notes"><h2>Schedule notes</h2><p><strong>Engine oil and filter:</strong> the table preserves your existing policy of 10,000 miles / 6 months. The locked manual severe-use rule is 3,750 miles / 6 months: 82,182 miles (approx. 132,259 km) or 2027-03-17 from this service. The owner policy remains separate.</p><p><strong>Fuel additive:</strong> already added. Only if TOP TIER Detergent Gasoline is unavailable, the source calls for the next addition after 7,500 miles / 12 months: 85,932 miles or 2027-09-17. That condition has not been confirmed.</p><p><strong>Coolant:</strong> checked very good. Replacement timing remains unresolved because the locked manual contains conflicting first-replacement rules; today's inspection does not reset replacement history.</p><p><strong>Unconfirmed scope:</strong> exhaust pipe/muffler inspection history, parking brake, spark plugs and front calipers were not covered by today's statement. No due date or completion is invented for these items.</p><p><strong>Rear pads:</strong> the spare kit remains in stock for later use. No rear-pad replacement is currently reported as needed.</p></div><p class="report-footer">Schedules: locked owner-supplied Hyundai source; existing owner oil policy | 2 / 2</p></div></div><footer class="footer">Generated 2026-09-17 12:31:13 +04:00 &middot; Documents remain in local project folders and are referenced by link.</footer><dialog class="document-dialog no-print" id="documentDialog">
   <div class="dialog-head"><strong id="documentTitle">Document</strong><div class="dialog-actions"><a id="documentFallback" href="#" target="_blank">Open separately</a><button type="button" id="closeDocument">Close</button></div></div>
   <iframe class="document-frame" id="documentFrame" title="Vehicle document preview"></iframe>
 </dialog><script>
